@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Introduction to ETCBC modules</title>
+</head>
+<body>
+
+<h1>ETCBC (version 4c) - MyBible Collection</h1>
+
+<p>Formatted by Eliran Wong; hkwebtech@gmail.com (last updated on 25/1/2017)</p>
+
+<p>
+<b>Suggested font for this collection:</b> Ezra SIL (available at http://mysword.info/download-mysword/fonts )<br />
+<b>Font installation:</b> copy font files to resource folder "[Internal_Storage]/MyBible/user/fonts" OR "[External_SD]/Android/data/ua.mybible/MyBible/user/fonts"; depends on where you install MyBible resources
+</p>
+
+<p><b>Bible modules</b>
+<br /><br />
+<b>in BHS versification:</b><br />
+(original versification; academic articles and lexicons use this versification)
+- ETCBC.SQLite3<br />
+- ETCBCc.SQLite3 (incl. cluase analysis)<br />
+- ETCBCx.SQLite3 (incl. phrase & clause analysis)<br />
+- ETCBCf.SQLite3 (incl. phrase function & clause analysis)<br />
+- ETCBCm.SQLite3 (incl. phrase & clause markers; verb higlighting)<br />
+- ETCBCp.SQLite3 (phono ONLY)<br />
+- ETCBCq.SQLite3 (created for searching morphology; cantillation marks removed for better word filtering)
+<br /><br />
+<b>in KJV versification:</b><br />
+(most bible translations use versification based on KJV with slight variations; modules below were designed for comparing Hebrew text with common translations)
+- ETCBCk.SQLite3<br />
+- ETCBCck.SQLite3 (incl. cluase analysis)<br />
+- ETCBCxk.SQLite3 (incl. phrase & clause analysis)<br />
+- ETCBCfk.SQLite3 (incl. phrase function & clause analysis)<br />
+- ETCBCmk.SQLite3 (incl. phrase & clause markers; verb higlighting)<br />
+- ETCBCpk.SQLite3 (phono ONLY)
+- ETCBCqk.SQLite3 (created for searching morphology; cantillation marks removed for better word filtering)
+</b><br />
+<b>Notes:</b>
+- difference in versification between BHS and KJV are marked in the text, where applicable.<br />
+- you can read full terms of abbreviations upon clicking abbreviated terms of clause/phrase analysis, in "ETCBCf(k)", "ETCBCc(k)" and "ETCBCx(k)" modules.<br />
+- to control the color or appearance of highligted verbs in ETCBCm(k).SQLite3 modules, go to "Settings > Themes > Emaphasized words"
+- to select font at "Settings > Themes > Verse text"<br />
+- read more below on what data are included for phrase and clause analysis<br />
+- section "Search on Lexeme or Lexeme&Morphology" below describes how to search for ETCBC morphology with these MyBible files
+</p>
+
+<p>
+<b>Hebrew Text in this collection:</b>
+https://shebanq.ancient-data.org/sources<br />
+The Hebrew text shown in SHEBANQ is taken from: Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fifth Revised Edition, edited by Adrian Schenker, © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.</p>
+
+<p>
+<b>Data on clause analysis:</b><br />
+(To access this feature, you must turn on the option of "explanation" in bible window.)<br />
+- rough clause type<br />
+- clause type<br />
+- clause constituent relation<br />
+Please refere to https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/0_overview.html for full features.
+</p>
+
+<p>
+<b>Data on phrase analysis:</b><br />
+(To access this feature, you must turn on the option of "footnote" in bible window.)<br />
+- phrase type<br />
+- phrase atom relation<br />
+- determination<br />
+- phrase function<br />
+Please refere to https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/0_overview.html for full features.
+</p>
+
+<p>
+<b>Taggings:</b><br />
+All bible modules in this collection are tagged with the following features, to work with dictionary module, "ETCBC4c"<br />
+- ETCBC morphology (word & pronominal suffix)<br />
+- dedicated numbers for ETCBC lexemes<br />
+- dedicated numbers for ETCBC data on morpheme<br />
+- all ketiv and qere readings are displayed, with different colors.  In addition to difference in color, morphological codes specify which those are qere readings.
+</p>
+
+<h2>Search on Lexeme or Lexeme_&_Morphology</h2>
+<p><b>Locate lexeme:</b><br />
+First, searching for morphological data alone is not helpful if searches are not connected with lexemes.  
+Typing Hebrew letters in mobile devices is fine, but typing Hebrew vowels in mobile devices is difficult, if not impossible.  
+Therefore, 9236 lexemes in ETCBC 4c data are assigned with numbers from 70001 to 79236 for easier typing.  
+In this MyBible collection, it is easy to check the number associated with the lexeme.  
+In all bible modules in this collections, except the phono version ETCBCp(k).SQLite, you can read article on ditionary lookup of each word, 
+where you can find corresponding Hebrew lexemes and numbers assigned to them.  
+For example, you will get קרא and H70027 with ETCBC dictionary on clicking יִּקְרָ֨א in Genesis 1:5.  
+If you turn on display for Strong's number you can simply find 70027 right next to word.
+</p>
+<p><b>Search for words based on particular lexeme(s):</b><br />
+To search all variants of a particular lexeme, say, קרא , simply use Strong's number search function available in MyBile, 
+by clicking the number 70027 or typing manually.<br />
+You may also search multiple words appear in same verses, say, try to search for H70003 H70004.  (please note that a space is requited between separate nubmers in the search field)
+</p>
+<p><b>Search for lexeme together with morphological data:</b><br />
+To search for lexeme together with morphological data, say יִּקְרָ֨א in Genesis 1:5 is based on lexeme קרא and its full morphology is "verb, qal, wayyiqtol, third person, masculine, singular", simply click the 8-digit numbers next to the 5-digit numbers and click search.  With this you will get all verses having variants of קרא tagged with morphological data "verb, qal, wayyiqtol, third person, masculine, singular".<br />
+Remarks: You can also do it in ETCBC ditionary, by clicking linked morphology in analytical lexicon and proceed the search.
+</p>
+<p><b>Filtering on searching morphological data:</b><br />
+You can do partial moropholgy search with ETCBCq(k).SQLite3, few examples below:<br />
+- to search all words of קרא ONLY in verbal stem pual OR nif, use "word search" and type "L70027.verb.pual | L70027.verb.nif" and proceed the search.<br />
+- to search all words of קרא ONLY in all verbal stems EXCEPT qal, use "word search" and type "L70027.verb & ~ L70027.verb.qal" and proceed the search.<br />
+- to search all words of קרא ONLY in participle forms, use "word search" and type "L70027.verb.____.ptca" and proceed the search.<br />
+- to search all words of קרא ONLY in participle AND plural forms, use "word search" and type "L70027.verb.____.ptca.__._.pl" and proceed the search.
+<br />
+<b>Remarks: </b><br />
+- Searching codes are available when users click "CODES" in beginning of each verse.  <br />
+- To read more on searching possiblities in MyBible app, please go to http://mybible.zone/search-eng.php
+</p>
+
+<h2>Features of ETCBC dictionary (installed separately)</h2>
+<p><b>File:</b> ETCBC4c.dictionary.SQLite3</p>
+<p>
+<b>Features:</b><br />
+- idealized lexeme (linked)<br />
+- realized lexeme (linked)<br />
+- language, part-of-speech (word), lexical set & type of named entity<br />
+- English gloss<br />
+- analytical lexicon (all manuscript forms of the same lexical form; with full morphological information)<br />
+- ETCBC morphology (word & pronominal suffix)<br />
+- phrase-dependent part-of-speech in morphology<br />
+- data on morphemes (nominal ending, preformative, pronominal suffix, univalent final, verbal ending, root formation)<br />
+- materials on Strong's numbers dictionary (for lookup of ordinary Strong's numbers)
+- work with Strong's no. replacement feature in MyBible (version 4.6+)
+</p>
+<p>
+<u>Notes on lexemes: </u><br />
+https://shebanq.ancient-data.org/shebanq/static/docs/featuredoc/features/comments/vocalized_lexeme.html<br />
+The values of vocalized lexeme look like the values of the g_lex_utf8 feature of word occurrences, but they are not the same. The vocalized lexeme is an idealized (aka paradigmatic), pointed representation of the lexeme, which may or may not occur in the text. The g_lex_utf8 is the realized lexeme in a concrete occurrence, of which it may be a part.
+</p>
+<p>
+<u>Notes on part-of-speech: </u><br />
+Users may find of part-of-speech information appeared in morphology different from part-of-speech information in lexical entry.  Part-of-speech information in morphology are phrase dependent part-of-speech.  You may read more below on "phrase dependent part-of-speech".
+</p>
+<u>Notes on phrase dependent part-of-speech: </u><br />
+https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/pdp.html<br />
+The part of speech that is assigned to a word based on its phrase context rather than on its lexical identity.
+</p>
+<h2>License</h2>
+<p><b>Source: </b><br />
+https://github.com/ETCBC/text-fabric-data</p>
+<p><b>Documents on ETCBC 4c features: </b><br />
+https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/0_overview.html</p>
+<p>
+The creators of the linguistic annotations that drive SHEBANQ, the ETCBC, want to facilitate optimal access to their data by researchers. All operations that are needed for the scholarly process are allowed. You are allowed to download the data and the code, build your own workflows on top of the data and even to redistribute your versions of the data and the code.
+
+Creative Commons License
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+</p>
+<p>Version of ETCBC: 4c</p>
+<p>
+<b>Hebrew text</b>
+https://shebanq.ancient-data.org/sources<br />
+The Hebrew text shown in SHEBANQ is taken from: Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fifth Revised Edition, edited by Adrian Schenker, © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.</p>
+
+<h2>Other dictionary features (installed separately)</h2>
+<p>(<b>File "Original.dictionary.SQLite3" MUST BE INSTALLED for the following features to work.</b>)<br />
+<br />
+- support Strong's numbers lookup<br />
+- support other dictionary lookups<br />
+<br />
+The following dictionaries / lexicons had been tested with this collection:<br />
+ETCBC(4c) dataset, BDB (unabridged); BDB (abridged); HALOT; CHALOT; Gesenius, CDCH, and dictionaries with GK numbers.<br />
+<br />
+Remarks: only non-copyrighted materials will be distributed with this collection, e.g. ETCBC(4c) dataset, SECE, BDB, Genenius, OSHL.<br />
+Please do not ask me for copyrighted materials.</p>
+
+</body>
+</html>
