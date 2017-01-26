@@ -1,2 +1,2 @@
 # ETCBC-remix
-Formatted files based on ETCBC (version 4c) data
+End-user files based on ETCBC (version 4c) data
