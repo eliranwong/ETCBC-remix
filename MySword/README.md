@@ -1,5 +1,6 @@
 <p>Bible modules formatted for use with MySword (Android) <br />
-Version of ETCBC data: 4c
+Version of ETCBC data: 4c<br />
+Latest files available at: https://github.com/eliranwong
 </p>
 
 <p>This module was created by Eliran Wong (hkwebtech@gmail.com)<br />
@@ -8,9 +9,11 @@ It was built on raw material found at: github.com/ETCBC/text-fabric-data/tree/ma
 
 <h2>Features of MySword modules</h2>
 <p>
-<b>Files: </b>[1] ETCBC.bbl.mybible (bile module) [2] ETCBC.dct.mybible (dictionary module) [3] rmac.dct.mybible (a dictionary module modified from official MySword rmac file; must install for Hebrew morphology)<br />
+<b>Files: </b>[1] ETCBC.bbl.mybible (bile module) [2] ETCBC.dct.mybible (dictionary module) [3] rmac.dct.mybible (a dictionary module)<br />
 <b>Installation: </b>Install all files to enjoy full features.  Replace official rmac with the modified rmac.dct.mybible here.<br />
-<b>Bible module: </b>ETCBC.bbl.mybible is tagged with Strong's numbers, ETCBC Hebrew morphology, customised numbers for Lexical entries, Hebrew lexemes, English gloss.  All ketiv and qere readings are displayed.  This module is formatted in KJV versification, with markings where verse no. different from original BHS versification.
+<b>ETCBC.bbl.mybible: </b>It is tagged with Strong's numbers, ETCBC Hebrew morphology, customised numbers for Lexical entries, Hebrew lexemes, English gloss.  All ketiv and qere readings are displayed.  This module is formatted in KJV versification, with markings where verse no. different from original BHS versification.<br />
+<b>ETCBC.dct.mybible: </b>Hebrew Analytical Lexicon (based on ETCBC 4c data; more infor. at github.com/eliranwong ); SECE (Strong's Exhausative Concordance, Enhanced)<br />
+<b>rmac.dct.mybible: </b>rmac.dct.mybible here is a modified version of official rmac.dct.mybible, Hebrew morphological information is added on top of original material.
 </p>
 <h2>Hebrew Text</h2>
 <p>
