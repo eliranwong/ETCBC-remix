@@ -13,7 +13,8 @@ It was built on raw material found at: github.com/ETCBC/text-fabric-data/tree/ma
 <b>Installation: </b>Install all files to enjoy full features.  Replace official rmac with the modified rmac.dct.mybible here.<br />
 <b>ETCBC.bbl.mybible: </b>It is tagged with Strong's numbers, ETCBC Hebrew morphology, customised numbers for Lexical entries, Hebrew lexemes, English gloss.  All ketiv and qere readings are displayed.  This module is formatted in KJV versification, with markings where verse no. different from original BHS versification.<br />
 <b>ETCBC.dct.mybible: </b>Hebrew Analytical Lexicon (based on ETCBC 4c data; more infor. at github.com/eliranwong ); SECE (Strong's Exhausative Concordance, Enhanced)<br />
-<b>rmac.dct.mybible: </b>rmac.dct.mybible here is a modified version of official rmac.dct.mybible, Hebrew morphological information is added on top of original material.
+<b>rmac.dct.mybible: </b>rmac.dct.mybible here is a modified version of official rmac.dct.mybible, Hebrew morphological information is added on top of original material.<br />
+<b>More options: </b>You may find more options by "LONG" tapping at the "gear" button.  You have to choose plain mode in order to remove extra spaces after conjunction or connected particles in NON-interlinear mode.
 </p>
 <h2>Hebrew Text</h2>
 <p>
