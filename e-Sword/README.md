@@ -14,9 +14,13 @@ It was built on raw materials found at: github.com/ETCBC/text-fabric-data/tree/m
 
 <h2>Features of e-Sword modules</h2>
 <p>
-<b>Files: </b>[1] BHS5.bbli (bile module) [2] ETCBC.bbli (bile module) [3] ETCBC+.bbli (bile module) [4] ETCBC.dcti<br />
+<b>Files: </b>[1] BHS5.bbli (bile module) [2] ETCBC.bbli (bile module) [3] ETCBC+.bbli (bile module) [4] ETCBC.dcti (dictionary module) [5] SECE.lexi (dictionary module)<br />
 <b>Installation: </b>Install all files to enjoy full features of this collection.<br />
-...
+<b>[1] BHS5.bbli (bile module): </b><br />Simply the text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition); hidden tags between connected words to enhance dictionary lookup
+<b>[2] ETCBC.bbli (bile module): </b><br />
+<b>[3] ETCBC+.bbli (bile module): </b><br />
+<b>[4] ETCBC.dcti (dictionary module): </b><br />
+<b>[5] SECE.lexi (dictionary module): </b>
 </p>
 <h2>Hebrew Text</h2>
 <p>
