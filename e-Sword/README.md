@@ -20,7 +20,7 @@ It was built on raw materials found at: github.com/ETCBC/text-fabric-data/tree/m
 <b>[2] ETCBC.bbli (bile module): </b>tagged with notes (ETCBC data, Strong's number, Full entry reference, Hebrew morphology).  Notes are either "N" or "R" followed by numbers in superscipts.<br />
 <b>[3] ETCBC+.bbli (bile module): </b>on top of materials found in ETCBC.bbli, Strong's numbers links and interlinear Egnlish gloss are added.<br />
 <b>[4] ETCBC.dcti (dictionary module): </b>Lexical entry with ETCBC data; Hebrew analytical lexicon; Strong's numbers links<br />
-<b>[5] SECE.lexi (dictionary module): </b>Strong's Exhausative Concordance (Enhanced)
+<b>[5] SECE.lexi (dictionary module): </b>Strong's Exhausative Concordance (Enhanced) + 6 unabridged BDB articles on 6 Hebrew words, which are out of normal range of Strong's numbers.
 </p>
 <h2>Hebrew Text</h2>
 <p>
