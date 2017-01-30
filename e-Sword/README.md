@@ -14,7 +14,7 @@ It was built on raw materials found at: github.com/ETCBC/text-fabric-data/tree/m
 <p>
 <b>Files: </b>[1] BHS5.bbli (bile module) [2] ETCBC.bbli (bile module) [3] ETCBC+.bbli (bile module) [4] ETCBC.dcti (dictionary module) [5] SECE.lexi (dictionary module)<br />
 <b>Installation: </b>Install all files to enjoy full features of this collection.<br />
-<b>[1] BHS5.bbli (bile module): </b>Simply the text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition); hidden tags between connected words to enhance dictionary lookup<br />
+<b>[1] BHS5.bbli (bile module): </b>Simply the text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition)<br />
 <b>[2] ETCBC.bbli (bile module): </b>tagged with notes (ETCBC data, Strong's number, Full entry reference, Hebrew morphology).  Notes are either "N" or "R" followed by numbers in superscipts.<br />
 <b>[3] ETCBC+.bbli (bile module): </b>on top of materials found in ETCBC.bbli, Strong's numbers links and interlinear Egnlish gloss are added.<br />
 <b>[4] ETCBC.dcti (dictionary module): </b>Lexical entry with ETCBC data; Hebrew analytical lexicon; Strong's numbers links<br />
