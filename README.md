@@ -1,5 +1,5 @@
 # ETCBC-remix
-This repository provides End-user files based on ETCBC (versions 4b & 4c) data.
+This repository provides End-user files based on ETCBC (versions 4c) data.
 It aims to make ETCBC data accessible to end-users.
 Files are formatted for use with applications/softwares/apps.
 Files are organized into separate folders, being named as the names of target application/software/app, which run the files.
