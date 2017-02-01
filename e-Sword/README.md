@@ -39,7 +39,8 @@ Third, "H" follows by numbers (from H1 to H8674 and from H9001 to H9006) H1-H867
 <b>iOS Users; iPad (e-Sword HD) / iPhone (e-Sowrd LT):</b><br />
 Usage of iOS files should be similar to those in e-Sword X, execept "Long-Tapping" in iOS platform, rather than "right click" and "select lookup" rather than "select define".
 </p>
-<b>PC (e-Sword X):</b><br />
+<p>
+<b>PC version:</b><br />
 - Strong's numbers are linked, a simple mouse hover does the lookup.
 - at the time of writing this description, PC version of e-Sword doesn't support non-encrpyted notes, that makes "R" and "N" numbers are unlinked in bible modules.  With that said, PC users could still take advantage of unique dictionary lookup features in PC e-Sword, by clicking directly on "R" or "N" numbers, corresponding articles would then come up in ETCBC dictionary.
 - To lookup ETCBC data from SECE lexicon, click the "R" numbers, and locate dictionary article in ETCBC dictionary.<br />
