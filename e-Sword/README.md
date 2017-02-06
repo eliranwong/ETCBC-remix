@@ -6,8 +6,8 @@ Version of ETCBC data: 4c<br />
 Latest files available at: https://github.com/eliranwong
 </p>
 
-<p>This module was created by Eliran Wong (hkwebtech@gmail.com)<br />
-It was built on raw materials found at: github.com/ETCBC/text-fabric-data/tree/master/hebrew/etcbc4c
+<p>This collection was created by Eliran Wong (hkwebtech@gmail.com)<br />
+It was built on raw materials found at github.com/ETCBC/text-fabric-data/tree/master/hebrew/etcbc4c AND data of derivative work available at https://github.com/eliranwong (You have to give proper attribution to the data when you use it in new applications.)
 </p>
 
 <h2>Features of e-Sword modules</h2>
