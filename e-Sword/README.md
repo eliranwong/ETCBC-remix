@@ -28,7 +28,7 @@ Remarks:<br />
 </p>
 <h2>Use of Dictionary modules, ETCBC</h2>
 <p>
-The BEST of ETCBC dictionary is that it includes all Hebrew entries of both ketiv and qere readings.  e-Sword users can perform direct dictionary lookup of Hebrew words, even bible modules "BHS5.bbli" and "BHS5m.bbli" are not tagged like "ETCBC.bbli", "ETCBC+.bbli" and "ETCBCi.bbli".<br />
+The <b>BEST</b> of ETCBC dictionary is that it includes all Hebrew entries of both ketiv and qere readings.  e-Sword users can perform direct dictionary lookup of Hebrew words, even bible modules "BHS5.bbli" and "BHS5m.bbli" are not tagged like "ETCBC.bbli", "ETCBC+.bbli" and "ETCBCi.bbli".<br />
 Direct lookup on Hebrew words give you information like, ETCBC Hebrew lexeme, ETCBC English gloss; Strong's nubmer(s), lexeme and gloss; morphology; and reference for entry of Hebrew analytical lexicon, which is marked by "R" followed by numbers.  Users can extend the dictionary lookup by checking the entry, e.g. clicking linked Strong's numbers or right-click on "R" numbers and select define in Mac e-Sword X (a simple click in PC e-Sword does the lookup).
 </p>
 <p>
