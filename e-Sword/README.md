@@ -13,7 +13,7 @@ It was built on raw materials found at https://github.com/ETCBC/text-fabric-data
 <h2>Features of e-Sword modules</h2>
 <p>
 <b>Files: </b>[1] BHS5.bbli (bible module) [2] BHS5m.bbli (bible module) [3] ETCBC.bbli (bile module) [4] ETCBC+.bbli (bile module) [5] ETCBCi.bbli (bile module) [6] ETCBC.dcti (dictionary module) [7] SECE+.lexi (dictionary module)<br />
-<b>Abbreviation: </b>Abbreviation of all modules is the same as their filename, excluding file extension, e.g. abbreviation of "BHS5.bbli" appears in e-Sword is "BHS5".<br />
+<b>Abbreviations: </b>Abbreviation of all modules is the same as their filename, excluding file extension, e.g. abbreviation of "BHS5.bbli" appears in e-Sword is "BHS5".<br />
 <b>Installation: </b>Install all files to enjoy full features of this collection.<br />
 <b>[1] BHS5.bbli (bible module): </b>Simply the text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition)<br />
 <b>[2] BHS5m.bbli (bible module): </b>Text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition) + each clause begins with a linebreak and marked by symbol "*" + each phase is marked by a pair of bracklets, "[" and "]" + all phrase-dependent verbs highlighted in red + all phrase-dependent proper nouns highlighted in olive<br />
