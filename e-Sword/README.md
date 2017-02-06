@@ -26,7 +26,7 @@ Remarks:<br />
 - All qere readings are in blue color, where applicable.<br />
 - This collection is built with html codes.  PC users need to install at least version 11 of PC version e-Sword in order to use files in this collection.  Currently, PC e-Sword is yet to fully support html modules, which makes ETCBC dictionary display in exepected way in some places though still usable.
 </p>
-<h2>Use of Dictionary modules, ETCBC</h2>
+<h2>Use of Dictionary module, ETCBC</h2>
 <p>
 The <b>BEST</b> of ETCBC dictionary is that it includes all Hebrew entries of both ketiv and qere readings.  e-Sword users can perform direct dictionary lookup of Hebrew words, even bible modules "BHS5.bbli" and "BHS5m.bbli" are not tagged like "ETCBC.bbli", "ETCBC+.bbli" and "ETCBCi.bbli".<br />
 Direct lookup on Hebrew words give you information like, ETCBC Hebrew lexeme, ETCBC English gloss; Strong's nubmer(s), lexeme and gloss; morphology; and reference for entry of Hebrew analytical lexicon, which is marked by "R" followed by numbers.  Users can extend the dictionary lookup by checking the entry, e.g. clicking linked Strong's numbers or right-click on "R" numbers and select define in Mac e-Sword X (a simple click in PC e-Sword does the lookup).
@@ -57,7 +57,7 @@ Usages in iOS interface should be similar to those in e-Sword X, except "Long-Ta
 - To lookup Strong's number from ETCBC dictionary, simply click those linked Strong's numbers.<br />
 IMPORTANT remarks: html rendering in current PC version of e-Sword is still yet to be good.  Mixing of Hebrew words and English behaves different as expected.  Hope future update of PC version may correct the problem.
 </p>
-<h2>Use of Dictionary modules, SECE+</h2>
+<h2>Use of Dictionary module, SECE+</h2>
 <p>
 SECE+ is simple a kind of Strong's number dictionary, with additional entries on six Hebrew prepostions/particles/words, which are missing in original Strong's number system.
 </p>
