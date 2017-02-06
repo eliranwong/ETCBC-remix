@@ -12,9 +12,11 @@ It was built on raw materials found at: github.com/ETCBC/text-fabric-data/tree/m
 
 <h2>Features of e-Sword modules</h2>
 <p>
-<b>Files: </b>[1] BHS5.bbli (bible module) [2] ETCBC.bbli (bile module) [3] ETCBC+.bbli (bile module) [4] ETCBC.dcti (dictionary module) [5] SECE.lexi (dictionary module)<br />
+<b>Files: </b>[1] BHS5.bbli (bible module) [2] BHS5m.bbli (bible module) [3] ETCBC.bbli (bile module) [4] ETCBC+.bbli (bile module) [5] ETCBCi.bbli (bile module) [6] ETCBC.dcti (dictionary module) [7] SECE+.lexi (dictionary module)<br />
+<b>Abbreviation: </b>Abbreviation of all modules is the same as their filename, excluding file extension, e.g. abbreviation of "BHS5.bbli" appears in e-Sword is "BHS5".<br />
 <b>Installation: </b>Install all files to enjoy full features of this collection.<br />
 <b>[1] BHS5.bbli (bible module): </b>Simply the text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition)<br />
+<b>[2] BHS5m.bbli (bible module): </b>Simply the text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition) + clause and phase markers according to ETCBC data + all phrase-dependent verbs highlighted in red + all phrase-dependent proper nouns highlighted in olive<br />
 <b>[2] ETCBC.bbli (bible module): </b>tagged with notes (ETCBC data, Strong's number, Full entry reference, Hebrew morphology).  Notes are either "N" or "R" followed by numbers in superscipts.<br />
 <b>[3] ETCBC+.bbli (bile module): </b>on top of materials found in ETCBC.bbli, Strong's numbers links and interlinear Egnlish gloss are added.<br />
 <b>[4] ETCBC.dcti (dictionary module): </b>Lexical entry with ETCBC data; Hebrew analytical lexicon; Strong's numbers links<br />
