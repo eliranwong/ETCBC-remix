@@ -73,5 +73,5 @@ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
 <br />
 Version of ETCBC data used in this mapping: 4c<br /><br />
 (more details at: shebanq.ancient-data.org/sources)<br /><br />
-This collection is also heavily based on derivative work of <b>Eliran Wong</b> at https://github.com/eliranwong , developers have to give proper credits by quoting the link https://github.com/eliranwong to re-use those materials.  Materials in this collection and at  https://github.com/eliranwong can only be re-used for FREE and non-commercial purpose.
+This collection is also heavily based on derivative work of <b>Eliran Wong</b> at https://github.com/eliranwong , developers have to give proper credits to Eliran Wong and quot the link https://github.com/eliranwong , to re-use those materials.  Materials in this collection and at  https://github.com/eliranwong can only be re-used for FREE and non-commercial purpose.
 </p>
