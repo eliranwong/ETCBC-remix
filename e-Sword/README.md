@@ -16,16 +16,23 @@ It was built on raw materials found at https://github.com/ETCBC/text-fabric-data
 <b>Abbreviations: </b>Abbreviation of all modules is the same as their filename, excluding file extension, e.g. abbreviation of "BHS5.bbli" appears in e-Sword is "BHS5".<br />
 <b>Installation: </b>Read file desciption below and choose what you need.  In PC, copy files to e-Sword resource folder.  In Mac, use "import" function available in menu.  For iOS users, transfer files to e-Sword folder through iTunes.<br />
 <b>[1] BHS5.bbli (bible module): </b>Simply the text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition)<br />
-<b>[2] BHS5m.bbli (bible module): </b>Text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition) + each clause begins with a linebreak and marked by symbol "*" + each phase is marked by a pair of bracklets, "[" and "]" + all phrase-dependent verbs highlighted in red + all phrase-dependent proper nouns highlighted in olive<br />
+<b>[2] BHS5m.bbli (bible module): </b>Text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition) + each clause begins with a linebreak and marked by symbol "*" + each phase is marked by a pair of bracklets, "[" and "]" + all phrase-dependent verbs highlighted in red color + all phrase-dependent proper nouns highlighted in olive color.<br />
 <b>[3] ETCBC.bbli (bible module): </b>tagged with notes (ETCBC Hebrew lexeme and related information, Strong's number and related information, reference of entry of Hebrew analytical lexicon, Hebrew morphology).  Notes are either "N" or "R" followed by numbers in superscipts.<br />
 <b>[4] ETCBC+.bbli (bile module): </b>on top of materials found in ETCBC.bbli, Strong's numbers links and interlinear Egnlish gloss are added.<br />
 <b>[5] ETCBCi.bbli (bile module): </b>Traditional interlinear view on data inlcuding, Hebrew ketiv words, transliteration, lexeme, Lexical No, Strong's no., morphology, and qere readings.  This module looks nice ONLY in Mac/iOS/iPhone e-Sword X/HD/LT, due to current limitations of PC e-Sword.<br />
-<b>[6] ETCBC.dcti (dictionary module): </b>This module is tailor-made for e-Sword users in view of limitations of e-Sword interface and structure.  It includes materials of Hebrew analytical lexicon (both Hebrew entries and Lexical number entries) availabe at https://github.com/eliranwong/Hebrew-analytical-lexicon , Strong's number mapping data available at https://github.com/eliranwong/BHS-Strong-no ; derivative work of ETCBC morphology data available at https://github.com/eliranwong/BHS-morphology .  Please read in section below for use of this dictionary.<br />
-<b>[7] SECE+.lexi (dictionary module): </b>Strong's Exhausative Concordance (Enhanced) + 6 unabridged BDB articles on 6 Hebrew words, which are out of normal range of Strong's numbers.
+<b>[6] ETCBC.dcti (dictionary module): </b>This module is tailor-made for e-Sword users in view of limitations of e-Sword interface and structure.  It includes materials of Hebrew analytical lexicon (both Hebrew entries and Lexical number entries) availabe at https://github.com/eliranwong/Hebrew-analytical-lexicon , Strong's number mapping data available at https://github.com/eliranwong/BHS-Strong-no ; derivative work of ETCBC morphology data available at https://github.com/eliranwong/BHS-morphology .  It also includes a copy of SECE material for Mac users to take advantage of "Define" function to lookup words in popup notes.  Please read in section below for use of this dictionary.<br />
+<b>[7] SECE+.lexi (dictionary module): </b>Strong's Exhausative Concordance (Enhanced) + 6 unabridged BDB articles on 6 Hebrew words, which are out of normal range of Strong's numbers.<br />
+Remarks:<br />
+- All qere readings are in blue color, where applicable.<br />
+- This collection is built with html codes.  PC users need to install at least version 11 of PC version e-Sword in order to use files in this collection.  Currently, PC e-Sword is yet to fully support html modules, which makes ETCBC dictionary display in exepected way in some places though still usable.
 </p>
-<h2>Dictionary Lookup</h2>
+<h2>Use of Dictionary modules, ETCBC</h2>
 <p>
-<b>Three kinds of dictionary entry in bible modules:</b><br />
+The BEST of ETCBC dictionary is that it includes all Hebrew entries of both ketiv and qere readings.  e-Sword users can perform direct dictionary lookup of Hebrew words, even bible modules "BHS5.bbli" and "BHS5m.bbli" are not tagged like "ETCBC.bbli", "ETCBC+.bbli" and "ETCBCi.bbli".<br />
+Direct lookup on Hebrew words give you information like, ETCBC Hebrew lexeme, ETCBC English gloss; Strong's nubmer(s), lexeme and gloss; morphology; and reference for entry of Hebrew analytical lexicon, which is marked by "R" followed by numbers.  Users can extend the dictionary lookup by checking the entry, e.g. clicking linked Strong's numbers or right-click on "R" numbers and select define in Mac e-Sword X (a simple click in PC e-Sword does the lookup).
+</p>
+<p>
+<b>In additon to direct lookup of Hebrew words, three kinds of dictionary entry in bible modules, ETCBC.bbli, ETCBC+.bbli, and ETCBCi.bbli:</b><br />
 First, "R" follows by numbers (from R1 to R9236) - this set are arranged according to 9236 Hebrew lexemes in ETCBC database (lexems which are of same spellings but different meanings are assigned with different numbers [different slots in ETCBC database]; Hebrew words corresponding Aramaic words are assigned with different numbers [different slots in ETCBC database])<br />
 Second, "M" follows by numbers (from N1 to N641) - this set gives you Hebrew morphology based on ETCBC database<br />
 Third, "H" follows by numbers (from H1 to H8674 and from H9001 to H9006) H1-H8674 are ordinary Strong's numbers, H9001-H9006 are prepositions/conjunctions/particles, which are not specified in Strong's numbers system.
@@ -33,7 +40,7 @@ Third, "H" follows by numbers (from H1 to H8674 and from H9001 to H9006) H1-H867
 <p>
 <b>Mac Users (e-Sword X):</b><br />
 - all entries are linked in bible modules, a simple click on one of them brings up a popup window.<br />
-- in popup window of "R" number entries, only brief information is given for quick overview.  To read full article of Hebrew analytical lexicon, RIGHT CLICK the "R" numbers in the HEADER, and SELECT "DEFINE".<br />
+- in popup window of "R" number entries, only brief information is given for quick overview.  To read full article of Hebrew analytical lexicon, RIGHT CLICK the "R" numbers in the HEADER, and SELECT "DEFINE".  Users may also right-click Strong's numbers in this brief note and select "DEFINE".<br />
 - in popup window of Strong's number entries, click the linked Strong's number to view the full article in lexicon view.<br />
 - To lookup ETCBC data from SECE lexicon, RIGHT CLICK the "R" numbers, and SELECT "DEFINE".<br />
 - To lookup Strong's number from ETCBC dictionary, simply click those linked Strong's numbers.
@@ -49,6 +56,10 @@ Usages in iOS interface should be similar to those in e-Sword X, except "Long-Ta
 - To lookup ETCBC data from SECE lexicon, click the "R" numbers, and locate dictionary article in ETCBC dictionary.<br />
 - To lookup Strong's number from ETCBC dictionary, simply click those linked Strong's numbers.<br />
 IMPORTANT remarks: html rendering in current PC version of e-Sword is still yet to be good.  Mixing of Hebrew words and English behaves different as expected.  Hope future update of PC version may correct the problem.
+</p>
+<h2>Use of Dictionary modules, SECE+</h2>
+<p>
+SECE+ is simple a kind of Strong's number dictionary, with additional entries on six Hebrew prepostions/particles/words, which are missing in original Strong's number system.
 </p>
 <h2>Hebrew Text</h2>
 <p>
