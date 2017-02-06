@@ -16,9 +16,10 @@ It was built on raw materials found at: github.com/ETCBC/text-fabric-data/tree/m
 <b>Abbreviation: </b>Abbreviation of all modules is the same as their filename, excluding file extension, e.g. abbreviation of "BHS5.bbli" appears in e-Sword is "BHS5".<br />
 <b>Installation: </b>Install all files to enjoy full features of this collection.<br />
 <b>[1] BHS5.bbli (bible module): </b>Simply the text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition)<br />
-<b>[2] BHS5m.bbli (bible module): </b>Simply the text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition) + clause and phase markers according to ETCBC data + all phrase-dependent verbs highlighted in red + all phrase-dependent proper nouns highlighted in olive<br />
-<b>[2] ETCBC.bbli (bible module): </b>tagged with notes (ETCBC data, Strong's number, Full entry reference, Hebrew morphology).  Notes are either "N" or "R" followed by numbers in superscipts.<br />
-<b>[3] ETCBC+.bbli (bile module): </b>on top of materials found in ETCBC.bbli, Strong's numbers links and interlinear Egnlish gloss are added.<br />
+<b>[2] BHS5m.bbli (bible module): </b>Text of Biblia Hebraica Stuttgartensia (Fifth Revised Edition) + each clause begins with a linebreak and marked by symbol "*" + each phase is marked by a pair of bracklets, "[" and "]" + all phrase-dependent verbs highlighted in red + all phrase-dependent proper nouns highlighted in olive<br />
+<b>[3] ETCBC.bbli (bible module): </b>tagged with notes (ETCBC Hebrew lexeme and related information, Strong's number and related information, reference of entry of Hebrew analytical lexicon, Hebrew morphology).  Notes are either "N" or "R" followed by numbers in superscipts.<br />
+<b>[4] ETCBC+.bbli (bile module): </b>on top of materials found in ETCBC.bbli, Strong's numbers links and interlinear Egnlish gloss are added.<br />
+<b>[5] ETCBCi.bbli (bile module): </b>Traditional interlinear view of data inlcuding, Hebrew ketiv words, transliteration, lexeme, Lexical No, Strong's no., morphology, and qere readings.  This module looks nice ONLY in Mac/iOS/iPhone e-Sword X/HD/LT, due to current limitations of PC e-Sword.<br />
 <b>[4] ETCBC.dcti (dictionary module): </b>Lexical entry with ETCBC data; Hebrew analytical lexicon; Strong's numbers links<br />
 <b>[5] SECE.lexi (dictionary module): </b>Strong's Exhausative Concordance (Enhanced) + 6 unabridged BDB articles on 6 Hebrew words, which are out of normal range of Strong's numbers.
 </p>
