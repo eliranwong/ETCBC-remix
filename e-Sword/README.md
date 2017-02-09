@@ -34,7 +34,7 @@ Direct lookup on Hebrew words give you information like, ETCBC Hebrew lexeme, ET
 </p>
 <p>
 <b>In additon to direct lookup of Hebrew words, you may find two different kinds of dictionary:</b><br />
-First, "R" follows by numbers (from R1 to R9236) - this set are arranged according to 9236 Hebrew lexemes in ETCBC database (lexems which are of same spellings but different meanings are assigned with different numbers [different slots in ETCBC database]; Hebrew words corresponding Aramaic words are assigned with different numbers [different slots in ETCBC database])<br />
+First, "R" follows by numbers (from R1 to R9236) - This is a reference entry to Hebrew analytical lexicon, a derivative work based on ETCBC data (available at https://github.com/eliranwong/Hebrew-analytical-lexicon).  This set are arranged according to 9236 Hebrew lexemes in ETCBC database (lexems which are of same spellings but different meanings are assigned with different numbers [different slots in ETCBC database]; Hebrew words corresponding Aramaic words are assigned with different numbers [different slots in ETCBC database])<br />
 Second, "H" follows by numbers (from H1 to H8674 and from H9001 to H9006) H1-H8674 are ordinary Strong's numbers, H9001-H9006 are prepositions/conjunctions/particles, which are not specified in Strong's numbers system.
 Remarks:<br />
 Current version of e-Sword in iPhone and iPad supports "long tap" and "Lookup" in all views except in dictionary view.  Therefore, the "R" number(s) in dictionary view is not able to do "Lookup" with "long tap", but users could still enter "R" numbers manually.  The "Lookup" function in all other views and in e-Sword X works perfectly.
