@@ -1,3 +1,5 @@
+... updating in progress ...
+
 Bible modules formatted for use with MyBible (an Android app)<br />
 Version of ETCBC data: 4c<br />
 
