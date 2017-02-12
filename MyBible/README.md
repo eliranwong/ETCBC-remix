@@ -1,5 +1,3 @@
 ... update in progress ...
 
-![ETCBC-remix](https://raw.github.com/eliranwong/ETCBC-remix/MyBible/master/screenshot.png)
-
 <img src="screenshot.png">
