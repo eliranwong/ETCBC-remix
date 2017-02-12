@@ -8,8 +8,9 @@
 <h1>ETCBC (version 4c) - MyBible collection</h1>
 
 <p>created by Eliran Wong (last updated on 12/2/2017)<br />
-This collection was created by Eliran Wong (hkwebtech@gmail.com)<br />
-It was built on raw materials found at https://github.com/ETCBC/text-fabric-data/tree/master/hebrew/etcbc4c AND derivative work available at https://github.com/eliranwong<br />
+This collection was created by Eliran Wong (hkwebtech@gmail.com), built on materials found at:<br />
+- https://github.com/ETCBC/text-fabric-data/tree/master/hebrew/etcbc4c (ETCBC version 4c data in TF format)<br />
+- https://github.com/eliranwong (derivative work by Eliran Wong)<br />
 (You have to give proper attribution to the data when you use it in new applications.)
 </p>
   
@@ -26,49 +27,31 @@ It was built on raw materials found at https://github.com/ETCBC/text-fabric-data
 <b>Font installation:</b> copy font files to resource folder "[Internal_Storage]/MyBible/user/fonts" OR "[External_SD]/Android/data/ua.mybible/MyBible/user/fonts"; depends on where you install MyBible resources
 </p>
 
+<h2>Hebrew text</h2>
+<p>
+Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fifth Revised Edition, edited by Adrian Schenker, © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.<br />
+(more info at: https://shebanq.ancient-data.org/sources)
+</p>
+  
 <h2>Bible modules</h2>
 <p>
-<b>Hebrew text</b>
-Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fifth Revised Edition, edited by Adrian Schenker, © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.<br />
-(more info at: https://shebanq.ancient-data.org/sources)<br />
 <b>BHS versification:</b><br />
 (original versification; academic articles and lexicons use this versification)
-- BHS5.SQLite3 (Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fifth Revised Edition)<br />
-- ETCBCc.SQLite3 (incl. cluase analysis)<br />
-- ETCBCx.SQLite3 (incl. phrase & clause analysis)<br />
-- ETCBCx.commentaries.SQLite3 (accompanies ETCBCx.SQLite3, deciphering abbreviations)<br />
-- ETCBCf.SQLite3 (incl. phrase function & clause analysis)<br />
-- ETCBCf.commentaries.SQLite3 (accompanies ETCBCf.SQLite3, deciphering abbreviations)<br />
-- ETCBCm.SQLite3 (incl. phrase & clause markers; verb higlighting)<br />
-- ETCBCp.SQLite3 (phono ONLY)<br />
-- ETCBCq.SQLite3 (created for searching morphology; cantillation marks removed for better word filtering)
+- BHS5.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology )<br />
+- BHS5m.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology + clause linebreak + clause marker + phrase marker + phrase-dependent verb highlighted in red + phrase-dependent proper noun emphasized )<br />
 <br /><br />
 <b>KJV versification:</b><br />
 (most bible translations use versification based on KJV with slight variations; modules below were designed for comparing Hebrew text with common translations)
-- ETCBCk.SQLite3<br />
-- ETCBCck.SQLite3 (incl. cluase analysis)<br />
-- ETCBCxk.SQLite3 (incl. phrase & clause analysis)<br />
-- ETCBCxk.commentaries.SQLite3 (accompanies ETCBCxk.SQLite3, deciphering abbreviations)<br />
-- ETCBCfk.SQLite3 (incl. phrase function & clause analysis)<br />
-- ETCBCfk.commentaries.SQLite3 (accompanies ETCBCfk.SQLite3, deciphering abbreviations)<br />
-- ETCBCmk.SQLite3 (incl. phrase & clause markers; verb higlighting)<br />
-- ETCBCpk.SQLite3 (phono ONLY)
-- ETCBCqk.SQLite3 (created for searching morphology; cantillation marks removed for better word filtering)
+- BHS5k.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology )<br />
+- BHS5km.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology + clause linebreak + clause marker + phrase marker + phrase-dependent verb highlighted in red + phrase-dependent proper noun emphasized )<br />
 </b><br />
 <b>Notes:</b>
-- difference in versification between BHS and KJV are marked in the text, where applicable.<br />
-- you can read full terms of abbreviations upon clicking abbreviated terms of clause/phrase analysis, in "ETCBCf(k)", "ETCBCc(k)" and "ETCBCx(k)" modules.<br />
-- to control the color or appearance of highligted verbs in ETCBCm(k).SQLite3 modules, go to "Settings > Themes > Emaphasized words"
-- to select font at "Settings > Themes > Verse text"<br />
-- read more below on what data are included for phrase and clause analysis<br />
-- section "Search on Lexeme or Lexeme&Morphology" below describes how to search for ETCBC morphology with these MyBible files
+- difference in versification between BHS and KJV are marked in the text, where applicable (e.g. Psalm 13).<br />
+- to control appearance of emphasized proper noun in BHS5m or BHS5km, go to "Settings > Themes > Emaphasized words"
+- to select font at "Settings > Themes > Verse text"
 </p>
 
-<h2>ETCBC data</h2>
-<p>
-<b>Hebrew Text in this collection:</b>
-https://shebanq.ancient-data.org/sources<br />
-The Hebrew text shown in SHEBANQ is taken from: Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fifth Revised Edition, edited by Adrian Schenker, © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.</p>
+<h2>Commentary module</h2>
 
 <p>
 <b>Data on clause analysis:</b><br />
