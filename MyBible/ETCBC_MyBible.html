@@ -47,8 +47,14 @@ Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fift
 </b><br />
 <b>Notes:</b>
 - difference in versification between BHS and KJV are marked in the text, where applicable (e.g. Psalm 13).<br />
-- to control appearance of emphasized proper noun in BHS5m or BHS5km, go to "Settings > Themes > Emaphasized words"
+- to control appearance of emphasized proper noun in BHS5m or BHS5km, go to "Settings > Themes > Emaphasized words"<br />
 - to select font at "Settings > Themes > Verse text"
+<br /><br />
+<b>Taggings:</b><br />
+Each Hebrew word is tagged with following information, to work with dictionary module, "ETCBC+"<br />
+- dedicated numbers for ETCBC lexemes<br />
+- ETCBC morphology, placed next to dedicated number for ETCBC lexeme<br />
+- dedicated numbers for combination of Hebrew lexeme and morphology, placed next to morphology
 </p>
 
 <h2>Commentary module</h2>
@@ -82,19 +88,26 @@ Division of phrases is represented by use of rows in tables.  Each row has Hebre
 - phrase function<br />
 Please refere to https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/0_overview.html for full features.
 </p>
-<p><b>PART III - word analysis</b>
-Every Hebrew word in each verse is given information on:
-- first line (from right to left): qere reading (where applicable), manuscript form, transliteration, Hebrew lexeme, English gloss
-- second line: morphology (tagged with links to facilitate searching the Hebrew text for each combination of Hebrew lexeme and morphology.  To take advantage of these links, click it and seach in BHS5 or BHS5[k]m bible module, you should expect list of all verses having the same set of combination of Hebrew lexeme and morphology.)
+<p><b>PART III - word analysis</b><br />
+Every Hebrew word in each verse is given information on:<br />
+- first line (from right to left): qere reading (where applicable), manuscript form, transliteration, Hebrew lexeme, English gloss<br />
+- second line: morphology (tagged with unique links to facilitate searching bible modules BHS5 or BHS5[k]m for a specific combination of Hebrew lexeme and morphology)<br />
+- to take advantage of these links, click it and seach in ETCBC+ dictionary in dicitonary window (select BHS5 or BHS5[k]m in seach window in case current active bible is a module other than these), you should expect a list of all verses having the same set of combination of Hebrew lexeme and morphology.
 </p>
 
+
+<h2>ETCBC dictionary (installed separately)</h2>
+<p><b>File:</b> ETCBC4c.dictionary.SQLite3</p>
 <p>
-<b>Taggings:</b><br />
-All bible modules in this collection are tagged with the following features, to work with dictionary module, "ETCBC4c"<br />
+<b>ETCBC data:</b><br />
+- idealized lexeme (linked)<br />
+- realized lexeme (linked)<br />
+- language, part-of-speech (word), lexical set & type of named entity<br />
+- English gloss<br />
+- analytical lexicon (all manuscript forms of the same lexical form; with full morphological information)<br />
 - ETCBC morphology (word & pronominal suffix)<br />
-- dedicated numbers for ETCBC lexemes<br />
-- dedicated numbers for ETCBC data on morpheme<br />
-- all ketiv and qere readings are displayed, with different colors.  In addition to difference in color, morphological codes specify which those are qere readings.
+- phrase-dependent part-of-speech in morphology<br />
+- data on morphemes (nominal ending, preformative, pronominal suffix, univalent final, verbal ending, root formation)
 </p>
 
 <h2>Search on Lexeme or Lexeme_&_Morphology</h2>
@@ -114,35 +127,10 @@ by clicking the number 70027 or typing manually.<br />
 You may also search multiple words appear in same verses, say, try to search for H70003 H70004.  (please note that a space is requited between separate nubmers in the search field)
 </p>
 <p><b>Search for lexeme together with morphological data:</b><br />
-To search for lexeme together with morphological data, say יִּקְרָ֨א in Genesis 1:5 is based on lexeme קרא and its full morphology is "verb, qal, wayyiqtol, third person, masculine, singular", simply click the 8-digit numbers next to the 5-digit numbers and click search.  With this you will get all verses having variants of קרא tagged with morphological data "verb, qal, wayyiqtol, third person, masculine, singular".<br />
+To search for lexeme together with morphological data, say יִּקְרָ֨א in Genesis 1:5 is based on lexeme קרא and its full morphology is "verb, qal, wayyiqtol, third person, masculine, singular", simply click the linked numbers, which are placed right after each morphology codes and click search.  With this you will get all verses having variants of קרא tagged with morphological data "verb, qal, wayyiqtol, third person, masculine, singular".<br />
 Remarks: You can also do it in ETCBC ditionary, by clicking linked morphology in analytical lexicon and proceed the search.
 </p>
-<p><b>Filtering on searching morphological data:</b><br />
-You can do partial moropholgy search with ETCBCq(k).SQLite3, few examples below:<br />
-- to search all words of קרא ONLY in verbal stem pual OR nif, use "word search" and type "L70027.verb.pual | L70027.verb.nif" and proceed the search.<br />
-- to search all words of קרא ONLY in all verbal stems EXCEPT qal, use "word search" and type "L70027.verb & ~ L70027.verb.qal" and proceed the search.<br />
-- to search all words of קרא ONLY in participle forms, use "word search" and type "L70027.verb.____.ptca" and proceed the search.<br />
-- to search all words of קרא ONLY in participle AND plural forms, use "word search" and type "L70027.verb.____.ptca.__._.pl" and proceed the search.
-<br />
-<b>Remarks: </b><br />
-- Searching codes are available when users click "CODES" in beginning of each verse.  <br />
-- To read more on searching possiblities in MyBible app, please go to http://mybible.zone/search-eng.php
-</p>
 
-<h2>ETCBC dictionary (installed separately)</h2>
-<p><b>File:</b> ETCBC4c.dictionary.SQLite3</p>
-<p>
-<b>ETCBC data:</b><br />
-- idealized lexeme (linked)<br />
-- realized lexeme (linked)<br />
-- language, part-of-speech (word), lexical set & type of named entity<br />
-- English gloss<br />
-- analytical lexicon (all manuscript forms of the same lexical form; with full morphological information)<br />
-- ETCBC morphology (word & pronominal suffix)<br />
-- phrase-dependent part-of-speech in morphology<br />
-- data on morphemes (nominal ending, preformative, pronominal suffix, univalent final, verbal ending, root formation)
-</p>
-  
 <p><b>Extra materials:</b><br />
 - "strong's exhaustive concordance" added (formatted from this source: github.com/openscriptures/strongs)<br />
 - links to various dictionaries added by Eliran Wong<br />
