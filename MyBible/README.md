@@ -44,7 +44,7 @@ Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fift
 </b><br />
 <b>Notes:</b>
 - difference in versification between BHS and KJV are marked in the text, where applicable (e.g. Psalm 13).<br />
-- to control appearance of emphasized proper noun in BHS5m or BHS5km, go to "Settings > Themes > Emaphasized words"<br />
+- to adjust appearance of emphasized proper noun in BHS5m or BHS5km, go to "Settings > Themes > Emaphasized words"<br />
 - to select font at "Settings > Themes > Verse text"
 <br /><br />
 <b>Taggings:</b><br />
