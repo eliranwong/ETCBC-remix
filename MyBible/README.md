@@ -87,10 +87,11 @@ Every Hebrew word in each verse is given information on:<br />
 - second line: morphology (tagged with unique links to facilitate searching bible modules BHS5 or BHS5[k]m for a specific combination of Hebrew lexeme and morphology)<br />
 - to take advantage of these links, click it and seach in ETCBC+ dictionary in dicitonary window (select BHS5 or BHS5[k]m in seach window in case current active bible is a module other than these), you should expect a list of all verses having the same set of combination of Hebrew lexeme and morphology.
 </p>
- remarks:</>
+<p><b>remarks:</b><br />
   - this commentary file are conformed into KJV versification, to facilitate comparisons with most common translation.<br />
   - where versification different from original BHS are marked and linked, i.e. users can easily navigate to BHS text in original versification.<br />
   - this file could be used independently or opened in parallel with different bible modules
+</p>
 
 <h2>ETCBC+ dictionary (search by assigned numbers for lexemes)</h2>
 <p><b>File:</b> ETCBC+.dictionary.SQLite3</p>
@@ -121,6 +122,7 @@ MyBible has two modes for dictionary lookup, Strong's and Dictionary.  This ETCB
 - integrated Strong's number mapping (derivative work available at https://github.com/eliranwong/BHS-Strong-no)
 </p>
 
+<h2>Remarks on lexemes and part-of-speech</h2>
 <p>
 <u>Notes on lexemes: </u><br />
 https://shebanq.ancient-data.org/shebanq/static/docs/featuredoc/features/comments/vocalized_lexeme.html<br />
