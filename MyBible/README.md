@@ -10,7 +10,15 @@ This collection was created by Eliran Wong (hkwebtech@gmail.com), built on mater
 - https://github.com/eliranwong (derivative work by Eliran Wong)<br />
 (You have to give proper attribution to the data when you use it in new applications.)
 </p>
-  
+
+<h2>License</h2>
+<p>
+Creative Commons License<br />
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.<br />
+(you may find more information on creative Commons License at https://shebanq.ancient-data.org/sources)<br />
+<b>Version of ETCBC data in this collection: 4c</b>
+</p>
+
 <h2>Application</h2>
 <p>
 <b>Required app:</b> MyBible (an Android app developed by Denys Dolganenko) version 4.6+<br />
@@ -35,7 +43,7 @@ Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fift
 <b>BHS versification:</b><br />
 (original versification; academic articles and lexicons use this versification)<br />
 - BHS5.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology )<br />
-- BHS5m.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology + clause linebreak + clause marker + phrase marker + phrase-dependent verb highlighted in red + phrase-dependent proper noun emphasized )<br />
+- BHS5m.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology + clause linebreak + clause marker + phrase marker + phrase-dependent verb highlighted in red + phrase-dependent proper noun emphasized )
 <br /><br />
 <b>KJV versification:</b><br />
 (most bible translations use versification based on KJV with slight variations; modules below were designed for comparing Hebrew text with common translations)
@@ -163,14 +171,6 @@ Remarks: You can also do it in ETCBC+ ditionary, by clicking linked morphology i
 - two-way links between Strong's numbers and ETCBC data added by Eliran Wong<br />
 - work with Strong's no. replacement feature in MyBible (version 4.6+)
 </p>
-
-<h2>License</h2>
-<p>
-Creative Commons License<br />
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.<br />
-(you may find more information on license at https://shebanq.ancient-data.org/sources)
-</p>
-<p>Version of ETCBC: 4c</p>
 
 <h2>Other dictionary features (installed separately)</h2>
 <p>(<b>File "Original.dictionary.SQLite3" MUST BE INSTALLED for the following features to work.</b>)<br />
