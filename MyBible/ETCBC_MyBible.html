@@ -95,40 +95,53 @@ Every Hebrew word in each verse is given information on:<br />
 - to take advantage of these links, click it and seach in ETCBC+ dictionary in dicitonary window (select BHS5 or BHS5[k]m in seach window in case current active bible is a module other than these), you should expect a list of all verses having the same set of combination of Hebrew lexeme and morphology.
 </p>
 
-
-<h2>ETCBC dictionary (installed separately)</h2>
-<p><b>File:</b> ETCBC4c.dictionary.SQLite3</p>
+<h2>ETCBC+ dictionary (search by assigned numbers for lexemes)</h2>
+<p><b>File:</b> ETCBC+.dictionary.SQLite3</p>
 <p>
-<b>ETCBC data:</b><br />
+<b>Usage:</b><br />
+  MyBible has two modes for dictionary lookup, Strong's and Dictionary.  This ETCBC+ dictionary contains entries of assigned numbers, which correspond Hebrew lexemes.  To use this dictionary, select "Strong" as lookup mode and click tagged words in bible modules.<br />
+<b>ETCBC data and derviative work:</b><br />
 - idealized lexeme (linked)<br />
 - realized lexeme (linked)<br />
-- language, part-of-speech (word), lexical set & type of named entity<br />
+- language, part-of-speech (word), lexical set and type of named entity<br />
 - English gloss<br />
-- analytical lexicon (all manuscript forms of the same lexical form; with full morphological information)<br />
-- ETCBC morphology (word & pronominal suffix)<br />
+- Hebrew analytical lexicon (derivative work available at https://github.com/eliranwong/Hebrew-analytical-lexicon)<br />
+- ETCBC morphology (word and pronominal suffix)<br />
+- morphology linked with dictionary entries combining lexeme and morphology (derivative work available at https://github.com/eliranwong/BHS-morphology)<br />
 - phrase-dependent part-of-speech in morphology<br />
-- data on morphemes (nominal ending, preformative, pronominal suffix, univalent final, verbal ending, root formation)
+- integrated Strong's number mapping (derivative work available at https://github.com/eliranwong/BHS-Strong-no)
 </p>
 
-<h2>Search on Lexeme or Lexeme_&_Morphology</h2>
-<p><b>Locate lexeme:</b><br />
-First, searching for morphological data alone is not helpful if searches are not connected with lexemes.  
+<h2>ETCBC dictionary (search by Hebrew manuscript word forms)</h2>
+<p><b>File:</b> ETCBC.dictionary.SQLite3</p>
+<p>
+<b>Usage:</b><br />
+MyBible has two modes for dictionary lookup, Strong's and Dictionary.  This ETCBC dictionary contains entries of Hebrew manuscript forms of words in the text of BHS.  To use this dictionary, select "Dictionary" as lookup mode and Hebrew word in bible modules.<br />
+<b>ETCBC data and derviative work:</b><br />
+- Hebrew lexeme, part of speech, morphology<br />
+- morphology linked with dictionary entries combining lexeme and morphology (derivative work available at https://github.com/eliranwong/BHS-morphology)<br />
+- links to Hebrew analytical lexicon (derivative work available at https://github.com/eliranwong/Hebrew-analytical-lexicon)<br />
+- integrated Strong's number mapping (derivative work available at https://github.com/eliranwong/BHS-Strong-no)
+</p>
+
+<h2>Search on Lexeme or Lexeme together with Morphology</h2>
+<p><b>Locate lexeme:</b><br />  
 Typing Hebrew letters in mobile devices is fine, but typing Hebrew vowels in mobile devices is difficult, if not impossible.  
 Therefore, 9236 lexemes in ETCBC 4c data are assigned with numbers from 70001 to 79236 for easier typing.  
 In this MyBible collection, it is easy to check the number associated with the lexeme.  
-In all bible modules in this collections, except the phono version ETCBCp(k).SQLite, you can read article on ditionary lookup of each word, 
+In all bible modules in this collections, you can read article on ditionary lookup of each word, 
 where you can find corresponding Hebrew lexemes and numbers assigned to them.  
 For example, you will get קרא and H70027 with ETCBC dictionary on clicking יִּקְרָ֨א in Genesis 1:5.  
 If you turn on display for Strong's number you can simply find 70027 right next to word.
 </p>
 <p><b>Search for words based on particular lexeme(s):</b><br />
 To search all variants of a particular lexeme, say, קרא , simply use Strong's number search function available in MyBile, 
-by clicking the number 70027 or typing manually.<br />
+by clicking the number 70027 (in dictionary window) or typing manually.<br />
 You may also search multiple words appear in same verses, say, try to search for H70003 H70004.  (please note that a space is requited between separate nubmers in the search field)
 </p>
 <p><b>Search for lexeme together with morphological data:</b><br />
 To search for lexeme together with morphological data, say יִּקְרָ֨א in Genesis 1:5 is based on lexeme קרא and its full morphology is "verb, qal, wayyiqtol, third person, masculine, singular", simply click the linked numbers, which are placed right after each morphology codes and click search.  With this you will get all verses having variants of קרא tagged with morphological data "verb, qal, wayyiqtol, third person, masculine, singular".<br />
-Remarks: You can also do it in ETCBC ditionary, by clicking linked morphology in analytical lexicon and proceed the search.
+Remarks: You can also do it in ETCBC+ ditionary, by clicking linked morphology in analytical lexicon and proceed the search.
 </p>
 
 <p><b>Extra materials:</b><br />
@@ -152,15 +165,10 @@ The part of speech that is assigned to a word based on its phrase context rather
 </p>
 
 <h2>License</h2>
-<p><b>Source: </b><br />
-https://github.com/ETCBC/text-fabric-data</p>
-<p><b>Documents on ETCBC 4c features: </b><br />
-https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/0_overview.html</p>
 <p>
-The creators of the linguistic annotations that drive SHEBANQ, the ETCBC, want to facilitate optimal access to their data by researchers. All operations that are needed for the scholarly process are allowed. You are allowed to download the data and the code, build your own workflows on top of the data and even to redistribute your versions of the data and the code.
-
-Creative Commons License
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+Creative Commons License<br />
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.<br />
+(you may find more information on license at https://shebanq.ancient-data.org/sources)
 </p>
 <p>Version of ETCBC: 4c</p>
 
@@ -170,10 +178,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
 - support Strong's numbers lookup<br />
 - support other dictionary lookups<br />
 <br />
-The following dictionaries / lexicons had been tested with this collection:<br />
-ETCBC(4c) dataset, BDB (unabridged); BDB (abridged); HALOT; CHALOT; Gesenius, CDCH, and dictionaries with GK numbers.<br />
-<br />
-Remarks: only non-copyrighted materials will be distributed with this collection, e.g. ETCBC(4c) dataset, SECE, BDB, Genenius, OSHL.<br />
+Various dictionaries / lexicons had been tested with this collection.  Only non-copyrighted materials will be distributed with this collection, e.g. ETCBC(4c) dataset, SECE, BDB, Genenius, OSHL.<br />
 Please do not ask me for copyrighted materials.</p>
 
 </body>
