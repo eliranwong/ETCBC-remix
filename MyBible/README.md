@@ -33,7 +33,7 @@ Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fift
 <h2>Bible modules</h2>
 <p>
 <b>BHS versification:</b><br />
-(original versification; academic articles and lexicons use this versification)
+(original versification; academic articles and lexicons use this versification)<br />
 - BHS5.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology )<br />
 - BHS5m.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology + clause linebreak + clause marker + phrase marker + phrase-dependent verb highlighted in red + phrase-dependent proper noun emphasized )<br />
 <br /><br />
