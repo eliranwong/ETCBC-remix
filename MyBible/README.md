@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>ETCBC (MyBible collection)</title>
-</head>
-<body>
-
 ... update in progress ...
 
 <img src="screenshot.png">
@@ -184,6 +177,3 @@ This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 Int
 <br />
 Various dictionaries / lexicons had been tested with this collection.  Only non-copyrighted materials will be distributed with this collection, e.g. ETCBC(4c) dataset, SECE, BDB, Genenius, OSHL.<br />
 Please do not ask me for copyrighted materials.</p>
-
-</body>
-</html>
