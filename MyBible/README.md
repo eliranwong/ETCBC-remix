@@ -1,4 +1,5 @@
-<b>NOTE: UNZIP before you install the files downloaded from here</b>
+<b>NOTE: UNZIP before you install the files downloaded from here</b><br />
+<b>NOTE: Please allow time for indexing dictionaries on first installation (around 10-15 minutes, depending on speed of your device)</b><br />
 
 <img src="screenshot.png">
 
