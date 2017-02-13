@@ -4,7 +4,7 @@
 
 <h1>ETCBC (version 4c) - MyBible collection</h1>
 
-<p>created by Eliran Wong (last updated on 12/2/2017)<br />
+<p>created by Eliran Wong (last updated on 13/2/2017)<br />
 This collection was created by Eliran Wong (hkwebtech@gmail.com), built on materials found at:<br />
 - https://github.com/ETCBC/text-fabric-data/tree/master/hebrew/etcbc4c (ETCBC version 4c data in TF format)<br />
 - https://github.com/eliranwong (derivative work by Eliran Wong)<br />
@@ -160,9 +160,8 @@ To search all variants of a particular lexeme, say, קרא , simply use Strong's
 by clicking the number 70027 (in dictionary window) or typing manually.<br />
 You may also search multiple words appear in same verses, say, try to search for H70003 H70004.  (please note that a space is requited between separate nubmers in the search field)
 </p>
-<p><b>Search for lexeme together with morphological data:</b><br />
-To search for lexeme together with morphological data, say יִּקְרָ֨א in Genesis 1:5 is based on lexeme קרא and its full morphology is "verb, qal, wayyiqtol, third person, masculine, singular", simply click the linked numbers, which are placed right after each morphology codes and click search.  With this you will get all verses having variants of קרא tagged with morphological data "verb, qal, wayyiqtol, third person, masculine, singular".<br />
-Remarks: You can also do it in ETCBC+ ditionary, by clicking linked morphology in analytical lexicon and proceed the search.
+<p><b>Search for combination of lexeme and morphology:</b><br />
+To search for lexeme together with morphological data, say יִּקְרָ֨א in Genesis 1:5 is based on lexeme קרא and its full morphology is "verb, qal, wayyiqtol, third person, masculine, singular", simply click the unique linked numbers, which are placed next to morphology codes and click search in dictionary window.  With this you will get a list of all verses having variants of קרא tagged with morphological data "verb, qal, wayyiqtol, third person, masculine, singular". You may also do a seach of it in ETCBC+ ditionary, by clicking linked morphology in analytical lexicon and proceed the search.
 </p>
 
 <h2>Extra materials:</h2>
