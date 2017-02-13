@@ -57,11 +57,7 @@ Each Hebrew word is tagged with following information, to work with dictionary m
 <h2>Commentary module</h2>
 <p>
 <b>File: ETCBC.commentaries.SQLite3</b><br />
-  It is a verse-by-verse commentary.  Commentary on each verse are consisted of three parts, which are to be described below.<br />
-  remarks:<br />
-  - this commentary file are conformed into KJV versification, to facilitate comparisons with most common translation.<br />
-  - where versification different from original BHS are marked and linked, i.e. users can easily navigate to BHS text in original versification.<br />
-  - this file could be used independently or opened in parallel with different bible modules
+  It is a verse-by-verse commentary, with three different parts on each verse, which are to be described below.
 </p>
 <p><b>PART I - Hebrew text</b><br />
   - the text of Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fifth Revised Edition, edited by Adrian Schenker, © 1977 and 1997 Deutsche Bibelgesellschaft, Stuttgart.<br />
@@ -91,6 +87,10 @@ Every Hebrew word in each verse is given information on:<br />
 - second line: morphology (tagged with unique links to facilitate searching bible modules BHS5 or BHS5[k]m for a specific combination of Hebrew lexeme and morphology)<br />
 - to take advantage of these links, click it and seach in ETCBC+ dictionary in dicitonary window (select BHS5 or BHS5[k]m in seach window in case current active bible is a module other than these), you should expect a list of all verses having the same set of combination of Hebrew lexeme and morphology.
 </p>
+ remarks:</>
+  - this commentary file are conformed into KJV versification, to facilitate comparisons with most common translation.<br />
+  - where versification different from original BHS are marked and linked, i.e. users can easily navigate to BHS text in original versification.<br />
+  - this file could be used independently or opened in parallel with different bible modules
 
 <h2>ETCBC+ dictionary (search by assigned numbers for lexemes)</h2>
 <p><b>File:</b> ETCBC+.dictionary.SQLite3</p>
