@@ -121,6 +121,20 @@ MyBible has two modes for dictionary lookup, Strong's and Dictionary.  This ETCB
 - integrated Strong's number mapping (derivative work available at https://github.com/eliranwong/BHS-Strong-no)
 </p>
 
+<p>
+<u>Notes on lexemes: </u><br />
+https://shebanq.ancient-data.org/shebanq/static/docs/featuredoc/features/comments/vocalized_lexeme.html<br />
+The values of vocalized lexeme look like the values of the g_lex_utf8 feature of word occurrences, but they are not the same. The vocalized lexeme is an idealized (aka paradigmatic), pointed representation of the lexeme, which may or may not occur in the text. The g_lex_utf8 is the realized lexeme in a concrete occurrence, of which it may be a part.
+</p>
+<p>
+<u>Notes on part-of-speech: </u><br />
+Users may find of part-of-speech information appeared in morphology different from part-of-speech information in lexical entry.  Part-of-speech information in morphology are phrase dependent part-of-speech.  You may read more below on "phrase dependent part-of-speech".
+</p>
+<u>Notes on phrase dependent part-of-speech: </u><br />
+https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/pdp.html<br />
+The part of speech that is assigned to a word based on its phrase context rather than on its lexical identity.
+</p>
+
 <h2>Search on Lexeme or Lexeme together with Morphology</h2>
 <p><b>Locate lexeme:</b><br />  
 Typing Hebrew letters in mobile devices is fine, but typing Hebrew vowels in mobile devices is difficult, if not impossible.  
@@ -141,24 +155,11 @@ To search for lexeme together with morphological data, say יִּקְרָ֨א in
 Remarks: You can also do it in ETCBC+ ditionary, by clicking linked morphology in analytical lexicon and proceed the search.
 </p>
 
-<p><b>Extra materials:</b><br />
+<h2>Extra materials:</h2>
 - "strong's exhaustive concordance" added (formatted from this source: github.com/openscriptures/strongs)<br />
 - links to various dictionaries added by Eliran Wong<br />
 - two-way links between Strong's numbers and ETCBC data added by Eliran Wong<br />
 - work with Strong's no. replacement feature in MyBible (version 4.6+)
-</p>
-<p>
-<u>Notes on lexemes: </u><br />
-https://shebanq.ancient-data.org/shebanq/static/docs/featuredoc/features/comments/vocalized_lexeme.html<br />
-The values of vocalized lexeme look like the values of the g_lex_utf8 feature of word occurrences, but they are not the same. The vocalized lexeme is an idealized (aka paradigmatic), pointed representation of the lexeme, which may or may not occur in the text. The g_lex_utf8 is the realized lexeme in a concrete occurrence, of which it may be a part.
-</p>
-<p>
-<u>Notes on part-of-speech: </u><br />
-Users may find of part-of-speech information appeared in morphology different from part-of-speech information in lexical entry.  Part-of-speech information in morphology are phrase dependent part-of-speech.  You may read more below on "phrase dependent part-of-speech".
-</p>
-<u>Notes on phrase dependent part-of-speech: </u><br />
-https://etcbc.github.io/text-fabric-data/features/hebrew/etcbc4c/pdp.html<br />
-The part of speech that is assigned to a word based on its phrase context rather than on its lexical identity.
 </p>
 
 <h2>License</h2>
