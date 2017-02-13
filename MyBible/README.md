@@ -1,4 +1,4 @@
-... update in progress ...
+<b>NOTE: UNZIP before you install the files downloaded from here</b>
 
 <img src="screenshot.png">
 
