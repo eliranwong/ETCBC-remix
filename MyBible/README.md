@@ -49,9 +49,9 @@ Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fift
 <br /><br />
 <b>Taggings:</b><br />
 Each Hebrew word is tagged with following information, to work with dictionary module, "ETCBC+"<br />
-- dedicated numbers for ETCBC lexemes<br />
-- ETCBC morphology, placed next to dedicated number for ETCBC lexeme<br />
-- dedicated numbers for combination of Hebrew lexeme and morphology, placed next to morphology
+- unique numbers assigned to ETCBC lexemes, placed next to Hebrew word<br />
+- ETCBC morphology, placed next to assigned number of ETCBC lexeme<br />
+- unique numbers assigned  to combinations Hebrew lexeme and morphology, placed next to morphology
 </p>
 
 <h2>Commentary module</h2>
