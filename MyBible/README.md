@@ -162,7 +162,7 @@ by clicking the number 70027 (in dictionary window) or typing manually.<br />
 You may also search multiple words appear in same verses, say, try to search for H70003 H70004.  (please note that a space is requited between separate nubmers in the search field)
 </p>
 <p><b>Search for combination of lexeme and morphology:</b><br />
-To search for lexeme together with morphological data, say יִּקְרָ֨א in Genesis 1:5 is based on lexeme קרא and its full morphology is "verb, qal, wayyiqtol, third person, masculine, singular", simply click the unique linked numbers, which are placed next to morphology codes and click search in dictionary window.  With this you will get a list of all verses having variants of קרא tagged with morphological data "verb, qal, wayyiqtol, third person, masculine, singular". You may also do a seach of it in ETCBC+ ditionary, by clicking linked morphology in analytical lexicon and proceed the search.
+To search for lexeme together with morphological data, say יִּקְרָ֨א in Genesis 1:5 is based on lexeme קרא and its full morphology is "verb, qal, wayyiqtol, third person, masculine, singular", simply click the triple cross sign ††† right after morphology information then proceed the search, either through clicking the long number at right upper corner in dictionary popup or search the number in dictionary window. With this you will get a list of all verses having variants of קרא tagged with morphological data "verb, qal, wayyiqtol, third person, masculine, singular". You may also do a seach of it in ETCBC+ ditionary, by clicking linked morphology in analytical lexicon and proceed the search.
 </p>
 
 <h2>Extra materials:</h2>
