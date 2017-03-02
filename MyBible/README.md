@@ -45,6 +45,7 @@ Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fift
 (original versification; academic articles and lexicons use this versification)<br />
 - BHS5.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology )<br />
 - BHS5m.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology + clause linebreak + clause marker + phrase marker + phrase-dependent verb highlighted in red + phrase-dependent proper noun emphasized )
+- BHS5t.SQLite3 ( Hebrew text + tagging linked to ETCBC+ dictionary + Hebrew morphology + clause linebreak + clause marker + clause indentation + phrase marker + phrase-dependent verb highlighted in red + phrase-dependent proper noun emphasized )
 <br /><br />
 <b>KJV versification:</b><br />
 (most bible translations use versification based on KJV with slight variations; modules below were designed for comparing Hebrew text with common translations)
@@ -60,7 +61,8 @@ Biblia Hebraica Stuttgartensia, edited by Karl Elliger and Wilhelm Rudolph, Fift
 Each Hebrew word is tagged with following information, to work with dictionary module, "ETCBC+"<br />
 - unique numbers assigned to ETCBC lexemes, placed next to Hebrew word<br />
 - ETCBC morphology, placed next to assigned number of ETCBC lexeme<br />
-- unique numbers assigned  to combinations Hebrew lexeme and morphology, placed next to morphology
+- unique numbers assigned to combinations Hebrew lexeme and morphology, placed next to morphology; created for searching<br />
+- asterisks in BHS5(k)t.SQLite3 are tagged with annotations on clause features (kind, typ, rela, where applicable)
 </p>
 
 <h2>Commentary module</h2>
