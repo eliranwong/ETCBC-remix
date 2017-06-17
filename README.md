@@ -1,4 +1,4 @@
-# ETCBC-remix
+# ETCBC-remix [<a href="https://biblebento.com/" target="_blank">BibleBento.com</a>]
 This repository provides End-user files based on ETCBC (versions 4c) data.
 It aims to make ETCBC data accessible to end-users.
 Files are formatted for use with applications/softwares/apps.
